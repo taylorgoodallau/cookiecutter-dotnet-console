@@ -15,6 +15,8 @@ def main():
     print(INFO +
           "{}/README.md contains instructions on how to proceed.".
           format(solution_name) + TERMINATOR)
+    print(INFO +
+          "P.S Don't Forget to resore aplication" + TERMINATOR)
 
 
 if __name__ == '__main__':

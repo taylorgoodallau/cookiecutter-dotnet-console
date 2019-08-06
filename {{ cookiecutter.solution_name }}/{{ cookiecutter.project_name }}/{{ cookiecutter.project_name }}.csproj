@@ -9,5 +9,10 @@
     <PackageReference Include="Sentry" Version="1.2.0" />
   </ItemGroup>
 {% endif %}
+{% if cookiecutter.include_newtonsoft_json %}
+<ItemGroup>
+<PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+</ItemGroup>
+{% endif %}
 
 </Project>
