@@ -24,7 +24,8 @@ Install `cookiecutter` command line:
 
 ## Usage
 
-Generate a new SAM based Serverless App: `cookiecutter gh:taylorgoodallau /cookiecutter-dotnet-console`. 
+Generate a new Dotnet Console Application: 
+`cookiecutter gh:taylorgoodallau/cookiecutter-dotnet-console`. 
 
 You'll be prompted a few questions to help this cookiecutter template to scaffold this project and after its completed you should see a new folder at your current path with the name of the project you gave as input.
 
@@ -36,8 +37,7 @@ You'll be prompted a few questions to help this cookiecutter template to scaffol
 Option | Description
 ------------------------------------------------- | ---------------------------------------------------------------------------------
 `name_of_project` | Name of your project
-`project_short_description` | Describe your project, description is used in the ```Readme``` that 
-is generated 
+`project_short_description` | Describe your project
 `solution_name` | Name of your solution
 ```project_name``` | Name of your project ( Uses First option without spaces and _ i.e my_new_project )
 
