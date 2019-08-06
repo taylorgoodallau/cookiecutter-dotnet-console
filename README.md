@@ -40,6 +40,8 @@ Option | Description
 `project_short_description` | Describe your project
 `solution_name` | Name of your solution
 ```project_name``` | Name of your project ( Uses First option without spaces and _ i.e my_new_project )
+```include_sentry``` | [Sentry](https://sentry.io/welcome/)
+```include_newtonsoft_json``` | [NewtonSoft](https://www.newtonsoft.com/json)
 
 ## Credits
 * This project has been generated with [Cookiecutter](https://github.com/audreyr/cookiecutter)
