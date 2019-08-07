@@ -1,5 +1,10 @@
 ﻿using System; {%- if cookiecutter.include_sentry %}
 using Sentry; {% endif %}
+{% if cookiecutter.include_aws_sqs %}
+using Amazon;
+using Amazon.SQS;
+using Amazon.SQS.Model;
+{% endif %}
 
 namespace {{ cookiecutter.project_name }} {
     class Program {

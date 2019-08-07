@@ -14,5 +14,10 @@
 <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
 </ItemGroup>
 {% endif %}
+{% if cookiecutter.include_aws_sqs %}
+<ItemGroup>
+<PackageReference Include="AWSSDK.SQS" Version="3.3.100.56" />
+</ItemGroup>
+{% endif %}
 
 </Project>

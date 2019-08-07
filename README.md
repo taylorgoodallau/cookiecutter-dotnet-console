@@ -29,6 +29,8 @@ Generate a new Dotnet Console Application:
 
 You'll be prompted a few questions to help this cookiecutter template to scaffold this project and after its completed you should see a new folder at your current path with the name of the project you gave as input.
 
+It is reccomended you format the codebase once you're ready to use it.
+
 **NOTE**: After you understand how cookiecutter works (cookiecutter.json, mainly), you can fork this repo and apply your own mechanisms to accelerate your development process and this can be followed for any programming language and OS.
 
 ## Options
@@ -42,6 +44,7 @@ Option | Description
 `project_name` | Name of your project ( Uses First option without spaces and _ i.e my_new_project )
 `include_sentry` | [Sentry](https://sentry.io/welcome/)
 `include_newtonsoft_json` | [NewtonSoft](https://www.newtonsoft.com/json)
+`include_aws_sqs` | Amazon SQS [SQS](https://aws.amazon.com/sqs/)
 
 ## Credits
 * This project has been generated with [Cookiecutter](https://github.com/audreyr/cookiecutter)

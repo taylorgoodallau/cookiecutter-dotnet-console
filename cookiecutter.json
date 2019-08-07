@@ -12,5 +12,6 @@
     "solution_name": "{{ cookiecutter.name_of_project.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
     "project_name": "{{ cookiecutter.solution_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
     "include_sentry": "y",
-    "include_newtonsoft_json": "y"
+    "include_newtonsoft_json": "y",
+    "include_aws_sqs": "y"
 }
